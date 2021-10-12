@@ -1,0 +1,162 @@
+
+/* two section in home page  */
+.colored-section{
+    background-color:rgb(241, 240, 240);
+    color:black;
+}
+ .white-section{
+    background: white;
+ }
+
+ /* nav bar  */
+
+ .carousel-item {
+    height: 80vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+  }
+  .nav-item{
+    padding-left: 0.6rem;
+  }
+  .navbar-nav{
+    padding-left: 0.6rem;
+  }
+  #navbar_top{
+      padding: 1rem;
+      transition: 0.4s;
+  }
+  .fixed-top.navbar_top{
+    transition: 0.4s ;
+  }
+#slider{
+  transition: 0.4s ;
+}
+  /* testimonials section */
+#testimonials{
+
+  background-color:rgb(241, 240, 240);
+  color:black;
+  text-align: center;
+}
+
+.testimonial-text{
+ font-size: 2.5rem;
+ line-height: 1.5;
+ padding:2em;
+ margin: 1px;
+ text-align: center;
+}
+.testimonials-image{
+ width:11%;
+ margin-left:44%;
+ text-align: center;
+}
+
+/* pre and next button style  */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+/* parallex effect  */
+
+.parallex{
+    /* The image used */
+    background-image: url("../picture/cesourel/lighting.jpg");
+
+    /* Set a specific height */
+    min-height: 450px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+ /* Each page url to title  */
+.page-title{
+  
+  text-align: center;
+  position: relative;
+  padding: 200px 0 0 0;
+  font-family: 'Noto Sans JP', sans-serif
+  
+}
+
+/* card style */
+
+.card{
+  border:1px solid black;
+  box-shadow:  0 0 18px 0 gray;
+}
+
+/* service page image */
+
+.side-image{
+  width: 450px; height: 350px;
+}
+
+
+  /* card style in about page - out team  */
+
+
+.profile img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%
+}
+.img{
+  border:1px solid black;
+  box-shadow:  0 0 20px 0 gray;
+  max-width: 300px;
+}
+
+.about {
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
+}
+
+.about-founder {
+  position: relative;
+  bottom: 35px
+}
+
+ /* vertical devider  */
+
+
+
+/* responsiveness */
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+ 
+}
+ 
+@media (max-width:767px) {
+  .carousel-inner {
+    height: 15rem;
+  }
+  .title{
+    font-size:3rem;
+  }
+}
+
+@media all and (min-width: 992px) {
+	.navbar-nav .nav-item .dropdown-menu{ display: none; }
+	.navbar-nav .nav-item:hover .nav-link{   }
+	.navbar-nav .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar-nav .nav-item .dropdown-menu{ margin-top:0; }
+}	

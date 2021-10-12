@@ -1,0 +1,20 @@
+.round-img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+ 
+.filterBy{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width:11.5rem;
+}
+
+#userFilter,#roomTypeFilter,#roomFilter,#roomBookingFilter{
+    padding-top: 0.6rem ;
+    padding-bottom: 0.2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+   
+}
