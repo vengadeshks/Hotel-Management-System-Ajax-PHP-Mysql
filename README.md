@@ -15,6 +15,10 @@ with that admin has a over view of hotel booking on the dashboard with graph.
  <h3>Client :</h3>
    <p>Email : rakesh@gmail.com<br>Password : 1234</p>
 
+## Schema
+![localhost _ 127](https://user-images.githubusercontent.com/59527753/137015146-d37af8ea-3833-429a-bf81-00d74087b05b.png)
+
+
   
 ## Prerequisites
 1. Install XAMPP web server
