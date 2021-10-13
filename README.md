@@ -38,7 +38,7 @@
 3. Extract all the files and move it to the 'htdocs' folder of your XAMPP directory and name it as hotel.
 4. Start the Apache and Mysql in your XAMPP control panel.
 5. Open your web browser and type 'localhost/phpmyadmin'
-6. In phpmyadmin page, create a new database from the left panel and name it as 'hotelmanagement'
+6. In phpmyadmin page, create a new database from the left panel and name it as 'hotel'
 7. Import the file 'hotel.sql' inside your newly created database and click ok.
 8. Open a new tab and type 'localhost/hotel' in the url of your browser.
 10. Hurray! That's it!
