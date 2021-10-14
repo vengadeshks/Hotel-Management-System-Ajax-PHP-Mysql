@@ -75,7 +75,7 @@
                             </span>
                         </div>
                       
-                        <input id="phoneNumber" type="tel" name="contactno" pattern="[789][0-9]{9}" placeholder="Phone Number" class="form-control bg-white border-md border-left-0 pl-3" required>
+                        <input id="phoneNumber" type="tel" name="contactno" pattern="[6789][0-9]{9}" placeholder="Phone Number" class="form-control bg-white border-md border-left-0 pl-3" required>
                     </div>
 
 

@@ -16,12 +16,12 @@ if(!isset($_SESSION['loggedUserId'])) {
  
 <div class="row ml-4" >
 
-<div class="col-6">
+<div class="col-md-6 col-sm-12">
 <div class="card border-light mb-3" style="max-width: 36rem;">
   <div class="card-header  font-weight-bold">Room Booking Status<span class="text-muted"> (Current year)</span></div>
   <div class="card-body">
 <div class="row">
-<div class="col-6">
+<div class="col-md-6 col-sm-12">
    
    <p class="font-weight-bold">Total Booking</p>
       <p id="room_total_booking">...</p>
@@ -30,7 +30,7 @@ if(!isset($_SESSION['loggedUserId'])) {
       <p class="font-weight-bold">Cancalled Booking</p>
       <p id="room_cancelled_booking">...</p>
    </div>
-   <div class="col-6">
+   <div class="col-md-6 col-sm-12">
      
    <p class="font-weight-bold">Booked Booking</p>
       <p id="room_booked_booking">...</p>
@@ -45,12 +45,12 @@ if(!isset($_SESSION['loggedUserId'])) {
 </div>
 </div>
 
-<div class="col-6">
+<div class="col-md-6 col-sm-12">
 <div class="card border-light mb-3" style="max-width: 36rem;">
   <div class="card-header  font-weight-bold">Event Booking Status<span class="text-muted"> (Current year)</span></div>
   <div class="card-body">
 <div class="row">
-<div class="col-6">
+<div class="col-md-6 col-sm-12">
    
    <p class="font-weight-bold">Total Booking</p>
       <p id="event_total_booking">...</p>
@@ -59,7 +59,7 @@ if(!isset($_SESSION['loggedUserId'])) {
       <p class="font-weight-bold">Cancalled Booking</p>
       <p id="event_cancelled_booking">...</p>
    </div>
-   <div class="col-6">
+   <div class="col-md-6 col-sm-12">
      
    <p class="font-weight-bold">Booked Booking</p>
       <p id="event_booked_booking">...</p>
@@ -78,7 +78,7 @@ if(!isset($_SESSION['loggedUserId'])) {
 
 <div class="row ml-4" >
 
-<div class="col-4">
+<div class="col-md-4 col-sm-12">
 <div class="card border-light mb-3" style="max-width: 18rem;">
   <div class="card-header  font-weight-bold">Room Details <span class="text-muted"> (Current year)</span></div>
   <div class="card-body">
@@ -94,7 +94,7 @@ if(!isset($_SESSION['loggedUserId'])) {
 </div>
 </div>
 
-<div class="col-4">
+<div class="col-md-4 col-sm-12">
 <div class="card border-light mb-3" style="max-width: 18rem;">
   <div class="card-header  font-weight-bold">Event Details <span class="text-muted"> (Current year)</span></div>
   <div class="card-body">
@@ -110,7 +110,7 @@ if(!isset($_SESSION['loggedUserId'])) {
 </div>
 </div>
 
-<div class="col-4">
+<div class="col-md-4 col-sm-12">
 <div class="card border-light mb-3" style="max-width: 18rem;">
   <div class="card-header font-weight-bold">Amount Details <span class="text-muted"> (Current year)</span></div>
   <div class="card-body">
@@ -125,17 +125,3 @@ if(!isset($_SESSION['loggedUserId'])) {
   </div>
 </div>
 </div>
-
-</div>
-
-
-
-
-</div>
-
-
-<!-- CDN For chart js  -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script src="js/dashboard_function.js"></script>
-<?php include("include/footer.php"); ?>
